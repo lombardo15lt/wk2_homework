@@ -1,0 +1,21 @@
+CLASS HOTEL
+@name
+@guest
+@room
+
+
+CLASS BOOKING
+@check_in
+@check_out
+@room
+@guest
+
+CLASS ROOM
+@room_nmbr
+@guest
+@day_rate
+
+Notes - @check_in and check_out are dates
+        @day_rate would be fixed
+        To calculate stay it would be (check_in - check_out) * @day_rate
+        Room availablity would be checking the room array to see an index was empty
